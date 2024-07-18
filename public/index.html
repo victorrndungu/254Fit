@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>254Fit - Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header class="header">
+        <div class="title">254Fit - Sign Up</div>
+    </header>
+    <main class="main">
+        <div class="auth-container">
+            <div class="auth-form">
+                <h2>Sign Up</h2>
+                <form id="signUpForm">
+                    <input type="email" id="signUpEmail" placeholder="Email" required>
+                    <input type="password" id="signUpPassword" placeholder="Password" required>
+                    <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+                    <button type="submit">Sign Up</button>
+                </form>
+                <p id="error-message" class="error-message"></p>
+                <p>Already have an account? <a href="signin.html">Log In</a></p>
+            </div>
+        </div>
+    </main>
+    <script src="signup.bundle.js"></script> <!-- Updated script source -->
+</body>
+</html>
